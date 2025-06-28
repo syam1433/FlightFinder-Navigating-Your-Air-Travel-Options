@@ -1,0 +1,109 @@
+.Homess{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 60px;
+}
+.showusers{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.showbookings{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.showflights{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.viebtn{
+    background-color: rgba(8, 8, 243, 0.775);
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-style: bold;
+    border-radius: 10px;
+}
+.head{
+    font-size: 30px;
+}
+@media screen and (max-width:992px) {
+    .Homess{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 60px;
+}
+.showusers{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.showbookings{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.showflights{
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.viebtn{
+    background-color: rgba(8, 8, 243, 0.775);
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-style: bold;
+    border-radius: 10px;
+}
+.head{
+    font-size: 24px;
+}
+.data1{
+    font-size: 16px;
+}
+.phome{
+    font-size: 16px;
+}
+.bookings{
+    font-size: 16px;
+}
+.data2{
+    padding: 20px;
+    gap: 9px;
+}
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+}

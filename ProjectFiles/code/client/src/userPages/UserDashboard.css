@@ -1,0 +1,73 @@
+.phome{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 20px;
+}
+.bookings{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 20px;
+
+}
+.logout{
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 20px;
+}
+.phome:hover{
+    
+    color: white;
+    font-size: 20px;
+}
+.bookings:hover{
+    
+    color: white;
+    font-size: 20px;
+
+}
+.logout:hover{
+
+    color:white;
+    font-size: 20px;
+}
+.book-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.book-button:hover {
+  background-color: #0056b3;
+}
+.logout{
+    font-family: 'Forum', serif;
+}
+
+@media screen and (max-width:992px) {
+   
+    .data1{
+        font-size: 20px;
+    }
+    .phome{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 17px;
+}
+.bookings{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 17px;
+
+}
+.logout{
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.716);
+    font-size: 17px;
+}
+}

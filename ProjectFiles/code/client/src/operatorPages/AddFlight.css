@@ -1,0 +1,42 @@
+.add-flight-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f1f4f8;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.add-flight-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flight-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.flight-form input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.flight-form button {
+  padding: 12px;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.flight-form button:hover {
+  background-color: #005ecc;
+}

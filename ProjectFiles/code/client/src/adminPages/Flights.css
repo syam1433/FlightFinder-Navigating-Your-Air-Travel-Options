@@ -1,0 +1,46 @@
+/* Container */
+.all-flights-container {
+  padding: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Page title */
+.all-flights-container h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Individual flight card */
+.flight-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  transition: transform 0.3s ease;
+}
+
+.flight-card:hover {
+  transform: scale(1.02);
+}
+
+/* Flight title */
+.flight-card strong {
+  font-size: 20px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+/* Info line */
+.flight-card p {
+  margin: 6px 0;
+  color: #555;
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+}
+
